@@ -2,3 +2,95 @@
     font-family: 'Mulish', sans-serif;
 }
 /* header style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+}
+.travel{
+    color: #FF5400;
+   
+}
+.nav-tittle{
+    font-weight: 800;
+    font-size: 36px;
+}
+.banner{
+    max-width: 100%;
+    position: relative;
+    margin: 0,auto;
+   
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.explore{
+    width: 596px;
+    height: 80px;
+    top: 252px;
+    left: 422px;
+
+   
+        position: absolute;
+        text-align: center;
+       
+        font-weight:800;
+        font-size: 64px;
+   
+}
+.description{
+    width: 676px;
+    height: 52px;
+    top: 356px;
+    left: 382px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+
+}
+.container-button {
+    width: Hug (800px);
+    height: Hug (84px);
+    top: 456px;
+    left: 320px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 24px;
+    
+    
+    
+  }
+  .btn{
+    width: 174px;
+    height: 52px;
+    top: 16px;
+    left: 16px;
+    
+    
+
+    
+    color: #080808;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+   
+
+
+  }
